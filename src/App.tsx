@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="w-11/12 mx-auto sticky">
+      <div className="w-11/12 mx-auto">
         {/* Navbar. */}
         <Nav></Nav>
         <Banner></Banner>

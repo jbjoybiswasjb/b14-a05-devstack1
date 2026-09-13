@@ -1,21 +1,26 @@
+import BannerStack from "../assets/banner-stack.png";
+
 const Banner = () => {
     return (
-        <div>
-            <div className="hero bg-base-200 min-h-[80%]">
-                <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero my-16">
+            <div className="hero-content flex-row-reverse flex justify-between">
+                <div>
                     <img
                         alt="Tailwind CSS hero component"
-                        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                        className="max-w-sm rounded-lg shadow-2xl"
+                        src={BannerStack}
+                        className="max-w-sm rounded-lg"
                     />
-                    <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
-                        </p>
-                        <button className="btn btn-primary">Get Started</button>
-                    </div>
+                </div>
+                <div className="w-1/2">
+                    <h1 className="text-5xl font-bold">
+                        Build Your Ideal <br />
+                        <span className="mt-2 text-purple-800">Development Stack</span>
+                    </h1>
+                    <p className="py-6">
+                        Explore frontend, backend, database and tooling options. Compare them side by side and put together the stack fits your next project.
+                    </p>
+                    <button className="mr-3 btn btn-primary">Explore Technologies</button>
+                    <button className="btn btn-default">Learn More</button>
                 </div>
             </div>
         </div>
