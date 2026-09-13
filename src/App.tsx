@@ -1,9 +1,15 @@
+import Banner from "./components/Banner"
+import Nav from "./components/Nav"
+
 function App() {
 
   return (
     <>
-      <div>S</div>
-      <button className="btn btn-success">Success</button>
+      <div className="w-11/12 mx-auto sticky">
+        {/* Navbar. */}
+        <Nav></Nav>
+        <Banner></Banner>
+      </div>
     </>
   )
 }
