@@ -1,4 +1,5 @@
 import Technology from "./Technology";
+import TechStackCard from "./TechStackCard";
 
 const Technologies = () => {
     return (
@@ -8,8 +9,8 @@ const Technologies = () => {
                 <p>Pick one technology per category to build your ideal stack.</p>
             </div>
 
-            <div className="grid grid-cols-4">
-                <div className="grid col-span-3 grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-4">
+                <div className="grid col-span-3 grid-cols-1 lg:grid-cols-3 gap-6">
                     <Technology></Technology>
                     <Technology></Technology>
                     <Technology></Technology>
@@ -19,7 +20,9 @@ const Technologies = () => {
                     <Technology></Technology>
                     <Technology></Technology>
                 </div>
-                <div></div>
+                <div>
+                    <TechStackCard></TechStackCard>
+                </div>
             </div>
         </div>
     );
