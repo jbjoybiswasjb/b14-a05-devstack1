@@ -5,6 +5,8 @@ import Nav from "./components/Nav"
 import Technologies from "./components/Technologies"
 import type { Itechnology } from "./types/technologyType"
 
+import { ToastContainer } from "react-toastify"
+
 
 const technologiesFetch = async():Promise<Itechnology[]> => {
   const res = await fetch('/public/data.json');
@@ -27,6 +29,8 @@ function App() {
         </Suspense>
         <Footer></Footer>
       </div>
+
+      <ToastContainer position="top-right" autoClose={2000} />
     </>
   )
 }

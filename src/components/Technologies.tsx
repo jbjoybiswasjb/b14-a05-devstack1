@@ -2,6 +2,7 @@ import { use, useState } from "react";
 import Technology from "./Technology";
 import TechStackCard from "./TechStackCard";
 import type { Itechnology } from "../types/technologyType";
+import { toast } from "react-toastify";
 
 interface TechnologiesProps {
     technologiesPromise: Promise<Itechnology[]>;
@@ -23,12 +24,14 @@ const Technologies = ({ technologiesPromise }: TechnologiesProps) => {
 
             if (alreadyExists) {
                 alert(`Already been added to your stack!`);
+                toast.warning(`${technology.name} is already in your stack!`);
                 return prevStack;
             }
 
             // Added another technology using rest operator in the stack.
             return [...prevStack, technology];
         });
+        toast.success(`${technology.name} added to your stack!`);
     };
 
     // Remove one technology when clicked technology item id matched.
@@ -36,11 +39,13 @@ const Technologies = ({ technologiesPromise }: TechnologiesProps) => {
         setStack((prevStack) =>
             prevStack.filter((item) => item.id !== id)
         );
+        toast.success("Technology removed from your stack!");
     };
 
     // Remove all technologies using empty array.
     const handleClearAll = () => {
         setStack([]);
+        toast.success("All technologies removed from your stack!");
     };
 
     return (
