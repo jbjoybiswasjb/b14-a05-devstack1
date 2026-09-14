@@ -4,10 +4,10 @@ const Footer = () => {
             <hr className="my-10 border-gray-200" />
             <div className="w-full">
 
-                {/* Main Footer */}
+                {/* Main Footer. */}
                 <div className="grid grid-cols-1 gap-10 md:grid-cols-5 text-black">
 
-                    {/* Brand */}
+                    {/* Brand. */}
                     <div className="col-span-2">
                         <div className="flex items-center gap-2">
                             <div className="flex h-6 w-6 items-center justify-center rounded bg-purple-600 text-[10px] font-bold text-white">
@@ -37,7 +37,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Product */}
+                    {/* Product. */}
                     <div>
                         <h3 className="text-sm font-semibold text-gray-800">
                             PRODUCT
@@ -62,7 +62,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Company */}
+                    {/* Company. */}
                     <div>
                         <h3 className="text-sm font-semibold text-gray-800">
                             COMPANY
@@ -87,7 +87,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Legal */}
+                    {/* Legal. */}
                     <div>
                         <h3 className="text-sm font-semibold text-gray-800">
                             LEGAL
@@ -109,7 +109,7 @@ const Footer = () => {
 
                 </div>
 
-                {/* Bottom */}
+                {/* Bottom. */}
                 <div className="mt-10 flex flex-col justify-between gap-4 border-t border-gray-100 pt-5 text-xs text-gray-400 sm:flex-row">
                     <p>
                         © 2026 Dev Stack. All rights reserved.
