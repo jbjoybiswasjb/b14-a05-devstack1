@@ -4,7 +4,7 @@
     "name": "React",
     "category": "Frontend",
     "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
+    "icon": "https://cdn.simpleicons.org/react",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Popular"
@@ -14,7 +14,7 @@
     "name": "PostgreSQL",
     "category": "Database",
     "description": "A powerful, open-source object-relational database system with proven reliability.",
-    "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    "icon": "https://cdn.simpleicons.org/postgresql",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Top SQL"
@@ -24,7 +24,7 @@
     "name": "Node.js",
     "category": "Backend",
     "description": "An open-source, cross-platform JavaScript runtime environment for building fast server-side applications.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/nodedotjs",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Scalable"
@@ -34,7 +34,7 @@
     "name": "TypeScript",
     "category": "Language",
     "description": "A strongly typed programming language that builds on JavaScript, giving you better tooling at scale.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/typescript",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Essential"
@@ -44,7 +44,7 @@
     "name": "Tailwind CSS",
     "category": "Styling",
     "description": "A utility-first CSS framework packed with classes that can be composed to build any design.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/tailwindcss",
     "rating": 4.7,
     "difficulty": "Beginner-Friendly",
     "badge": "Modern"
@@ -54,7 +54,7 @@
     "name": "Docker",
     "category": "DevOps",
     "description": "A platform designed to help developers build, share, and run applications with containers anywhere.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/docker",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Containers"
@@ -64,7 +64,7 @@
     "name": "Git",
     "category": "Tools",
     "description": "A free and open source distributed version control system designed to handle everything from small to large projects.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/git",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Industry Standard"
@@ -74,7 +74,7 @@
     "name": "Next.js",
     "category": "Frontend",
     "description": "The React framework for the web, enabling powerful features like server-side rendering and static site generation.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/nextdotjs",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "SEO Friendly"
@@ -84,7 +84,7 @@
     "name": "MongoDB",
     "category": "Database",
     "description": "A document-based, distributed NoSQL database designed for modern application developers and cloud eras.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/mongodb",
     "rating": 4.6,
     "difficulty": "Beginner-Friendly",
     "badge": "Flexible NoSQL"
@@ -94,7 +94,7 @@
     "name": "Python",
     "category": "Language",
     "description": "A high-level, interpreted programming language known for its clear syntax, readability, and data-science ecosystem.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/python",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Versatile"
@@ -104,7 +104,7 @@
     "name": "Kubernetes",
     "category": "DevOps",
     "description": "An open-source container orchestration engine for automating deployment, scaling, and management of containerized apps.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/kubernetes",
     "rating": 4.8,
     "difficulty": "Advanced",
     "badge": "Enterprise Orchestration"
@@ -114,19 +114,9 @@
     "name": "Sass",
     "category": "Styling",
     "description": "An extension language that adds power and elegance to basic CSS by supporting nesting, variables, and mixins.",
-    "icon": "https://icepanel.io",
+    "icon": "https://cdn.simpleicons.org/sass",
     "rating": 4.5,
     "difficulty": "Beginner-Friendly",
     "badge": "Classic"
-  },
-  {
-    "id": "vscode",
-    "name": "VS Code",
-    "category": "Tools",
-    "description": "A powerful, lightweight source code editor made by Microsoft which comes with built-in support for debugging and Git.",
-    "icon": "https://icepanel.io",
-    "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Most Popular"
   }
 ]

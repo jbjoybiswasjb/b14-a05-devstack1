@@ -3,9 +3,10 @@ import Banner from "./components/Banner"
 import Footer from "./components/Footer"
 import Nav from "./components/Nav"
 import Technologies from "./components/Technologies"
+import type { Itechnology } from "./types/technologyType"
 
 
-const technologiesFetch = async() => {
+const technologiesFetch = async():Promise<Itechnology[]> => {
   const res = await fetch('/public/data.json');
   const data = await res.json();
   return data;

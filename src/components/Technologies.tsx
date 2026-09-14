@@ -1,11 +1,15 @@
 import { use } from "react";
 import Technology from "./Technology";
 import TechStackCard from "./TechStackCard";
+import type { Itechnology } from "../types/technologyType";
 
 
-const Technologies = ({technologiesPromise}) => {
+interface technologiesProps {
+    technologiesPromise: Promise<Itechnology[]>;
+}
+
+const Technologies = ({technologiesPromise}: technologiesProps) => {
     const technologies = use(technologiesPromise);
-    console.log(technologies);
     return (
         <div>
             <div className="mb-10">
@@ -14,15 +18,10 @@ const Technologies = ({technologiesPromise}) => {
             </div>
 
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
-                <div className="grid col-span-3 grid-cols-1 lg:grid-cols-3 gap-3">
-                    <Technology></Technology>
-                    <Technology></Technology>
-                    <Technology></Technology>
-                    <Technology></Technology>
-                    <Technology></Technology>
-                    <Technology></Technology>
-                    <Technology></Technology>
-                    <Technology></Technology>
+                <div className="grid lg:col-span-3 grid-cols-1 lg:grid-cols-3 gap-3">
+                    {
+                        technologies.map((technology: Itechnology) => <Technology technology={technology}></Technology>)
+                    }
                 </div>
                 <div>
                     <TechStackCard></TechStackCard>
