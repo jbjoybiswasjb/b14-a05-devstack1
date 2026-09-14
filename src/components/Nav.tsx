@@ -38,7 +38,7 @@ const Nav = () => {
             </div>
             <div className="navbar-end flex gap-1">
                 <button className="btn btn-ghost text-sm rounded-3xl">Sign In</button>
-                <button className="btn btn-primary text-sm rounded-3xl">Sign Up</button>
+                <button className="btn btn-primary text-sm rounded-3xl bg-brand-gradient border-transparent text-white">Sign Up</button>
             </div>
         </div>
     );

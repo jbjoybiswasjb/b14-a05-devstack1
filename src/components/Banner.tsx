@@ -7,12 +7,12 @@ const Banner = () => {
                 <div>
                     <h1 className="text-5xl font-bold">
                         Build Your Ideal <br />
-                        <span className="text-purple-800">Development Stack</span>
+                        <span className="text-purple-800 text-brand-gradient">Development Stack</span>
                     </h1>
                     <p className="py-6">
                         Explore frontend, backend, database and tooling options. Compare them side by side and put together the stack fits your next project.
                     </p>
-                    <button className="mr-3 btn btn-primary">Explore Technologies</button>
+                    <button className="mr-3 btn btn-primary bg-brand-gradient text-white border-transparent">Explore Technologies</button>
                     <button className="btn btn-default">Learn More</button>
                 </div>
                 <div>

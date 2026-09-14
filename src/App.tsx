@@ -22,7 +22,7 @@ function App() {
       <div className="w-11/12 mx-auto">
         <Nav></Nav>
         <Banner></Banner>
-        <Suspense fallback={<h2>Loading</h2>}>
+        <Suspense fallback={<h2>Loading...</h2>}>
           <Technologies technologiesPromise={technologiesPromise}></Technologies>
         </Suspense>
         <Footer></Footer>
