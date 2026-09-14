@@ -12,7 +12,7 @@ A interactive web application that allows developers to browse, filter their ide
 
 * **React** – use, state, useState
 * **TypeScript** – prevent wrong data types.
-* **Tailwind CSS** – For best UI.
+* **Tailwind CSS** – For best UI..
 
 ---
 
