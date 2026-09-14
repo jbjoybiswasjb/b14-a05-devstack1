@@ -22,6 +22,7 @@ const Technologies = ({ technologiesPromise }: TechnologiesProps) => {
             );
 
             if (alreadyExists) {
+                alert(`Already been added to your stack!`);
                 return prevStack;
             }
 
@@ -63,13 +64,18 @@ const Technologies = ({ technologiesPromise }: TechnologiesProps) => {
 
                 {/* Technology Cards */}
                 <div className="grid grid-cols-1 gap-3 lg:col-span-3 lg:grid-cols-3">
-                    {technologies.map((technology) => (
-                        <Technology
-                            key={technology.id}
-                            technology={technology}
-                            onAddToStack={handleAddToStack}
-                        />
-                    ))}
+                    {technologies.map((technology) => {
+                        const isAdded = stack.some((item) => item.id === technology.id);
+
+                        return (
+                            <Technology
+                                key={technology.id}
+                                technology={technology}
+                                onAddToStack={handleAddToStack}
+                                isAdded={isAdded}
+                            />
+                        );
+                    })}
                 </div>
 
                 {/* Your Stack */}

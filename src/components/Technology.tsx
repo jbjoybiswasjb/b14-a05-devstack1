@@ -3,9 +3,10 @@ import type { Itechnology } from "../types/technologyType";
 interface TechnologyProps {
     technology: Itechnology;
     onAddToStack: (technology: Itechnology) => void;
+    isAdded: boolean;
 }
 
-const Technology = ({ technology, onAddToStack }: TechnologyProps) => {
+const Technology = ({ technology, onAddToStack, isAdded }: TechnologyProps) => {
     const {
         badge,
         category,
@@ -101,9 +102,10 @@ const Technology = ({ technology, onAddToStack }: TechnologyProps) => {
             <button
                 type="button"
                 onClick={() => onAddToStack(technology)}
+                disabled={isAdded}
                 className="mt-8 w-full rounded-xl bg-[#080e1b] py-2 text-sm font-semibold text-white transition hover:bg-gray-800"
             >
-                Add to Stack
+                {isAdded ? "✓ Added to Stack" : "Add to Stack"}
             </button>
 
         </div>
