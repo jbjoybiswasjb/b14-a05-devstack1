@@ -1,11 +1,11 @@
 const Footer = () => {
     return (
-        <footer className="bg-white text-gray-500">
+        <footer className="bg-white mt-10 p-5">
             <hr className="my-10 border-gray-200" />
             <div className="w-full">
 
                 {/* Main Footer */}
-                <div className="grid grid-cols-1 gap-10 md:grid-cols-5">
+                <div className="grid grid-cols-1 gap-10 md:grid-cols-5 text-black">
 
                     {/* Brand */}
                     <div className="col-span-2">

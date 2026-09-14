@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface TechItem {
     id: string;
@@ -33,7 +33,7 @@ export default function TechStackCard() {
     };
 
     return (
-        <div className="card w-96 bg-base-100 border border-base-200 shadow-sm p-6 font-sans">
+        <div className="card bg-base-100 border border-base-200 shadow-sm p-6 font-sans">
             {/* Header */}
             <div className="mb-5">
                 <h2 className="text-xl font-bold text-base-content tracking-tight">Your Stack</h2>
